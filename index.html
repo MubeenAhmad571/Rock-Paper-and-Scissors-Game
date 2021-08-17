@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Rock, Paper and Scissors Game</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Paper, Rock and Scisssors</h2>
+        <div class="rpgcont">
+          <img src="img/paper.png" alt="paper" title="Paper" onclick="startGame('paper')">
+          <img src="img/rock.png" alt="rock" title="Rock" onclick="startGame('rock')"> 
+          <img src="img/scissors.png" alt="scissors" title="Scissors" onclick="startGame('scissors')">
+        </div>
+        <p id="whowins">Choose your move</p>
+        <div id="score">
+          <div class="sides">User:0</div>
+          <div class="sides">Computer:0</div>
+        </div>
+
+    </div>
+</body>
+<script src="js/main.js"></script>
+</html>
